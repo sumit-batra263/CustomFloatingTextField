@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE9A140622391AD100AFC720 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A140522391AD100AFC720 /* AppDelegate.swift */; };
+		CE9A140822391AD100AFC720 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A140722391AD100AFC720 /* ViewController.swift */; };
+		CE9A140B22391AD100AFC720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9A140922391AD100AFC720 /* Main.storyboard */; };
+		CE9A140D22391AD300AFC720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9A140C22391AD300AFC720 /* Assets.xcassets */; };
+		CE9A141022391AD300AFC720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9A140E22391AD300AFC720 /* LaunchScreen.storyboard */; };
+		CE9A141B22391AD300AFC720 /* CustomFloatingTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A141A22391AD300AFC720 /* CustomFloatingTextFieldTests.swift */; };
+		CE9A142622391AD300AFC720 /* CustomFloatingTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A142522391AD300AFC720 /* CustomFloatingTextFieldUITests.swift */; };
+		CE9A143722394E4F00AFC720 /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A143622394E4F00AFC720 /* FloatingTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE9A141722391AD300AFC720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE9A13FA22391AD100AFC720 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9A140122391AD100AFC720;
+			remoteInfo = MVVM;
+		};
+		CE9A142222391AD300AFC720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE9A13FA22391AD100AFC720 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9A140122391AD100AFC720;
+			remoteInfo = MVVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE9A140222391AD100AFC720 /* CustomFloatingTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFloatingTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9A140522391AD100AFC720 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE9A140722391AD100AFC720 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE9A140A22391AD100AFC720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE9A140C22391AD300AFC720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE9A140F22391AD300AFC720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE9A141122391AD300AFC720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9A141622391AD300AFC720 /* CustomFloatingTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFloatingTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9A141A22391AD300AFC720 /* CustomFloatingTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFloatingTextFieldTests.swift; sourceTree = "<group>"; };
+		CE9A141C22391AD300AFC720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9A142122391AD300AFC720 /* CustomFloatingTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFloatingTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9A142522391AD300AFC720 /* CustomFloatingTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFloatingTextFieldUITests.swift; sourceTree = "<group>"; };
+		CE9A142722391AD300AFC720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9A143622394E4F00AFC720 /* FloatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE9A13FF22391AD100AFC720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9A141322391AD300AFC720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9A141E22391AD300AFC720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE9A13F922391AD100AFC720 = {
+			isa = PBXGroup;
+			children = (
+				CE9A140422391AD100AFC720 /* CustomFloatingTextField */,
+				CE9A141922391AD300AFC720 /* CustomFloatingTextFieldTests */,
+				CE9A142422391AD300AFC720 /* CustomFloatingTextFieldUITests */,
+				CE9A140322391AD100AFC720 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE9A140322391AD100AFC720 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE9A140222391AD100AFC720 /* CustomFloatingTextField.app */,
+				CE9A141622391AD300AFC720 /* CustomFloatingTextFieldTests.xctest */,
+				CE9A142122391AD300AFC720 /* CustomFloatingTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE9A140422391AD100AFC720 /* CustomFloatingTextField */ = {
+			isa = PBXGroup;
+			children = (
+				CE9A1433223926F400AFC720 /* FloatingTextField */,
+				CE9A140522391AD100AFC720 /* AppDelegate.swift */,
+				CE9A140722391AD100AFC720 /* ViewController.swift */,
+				CE9A140922391AD100AFC720 /* Main.storyboard */,
+				CE9A140C22391AD300AFC720 /* Assets.xcassets */,
+				CE9A140E22391AD300AFC720 /* LaunchScreen.storyboard */,
+				CE9A141122391AD300AFC720 /* Info.plist */,
+			);
+			path = CustomFloatingTextField;
+			sourceTree = "<group>";
+		};
+		CE9A141922391AD300AFC720 /* CustomFloatingTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9A141A22391AD300AFC720 /* CustomFloatingTextFieldTests.swift */,
+				CE9A141C22391AD300AFC720 /* Info.plist */,
+			);
+			path = CustomFloatingTextFieldTests;
+			sourceTree = "<group>";
+		};
+		CE9A142422391AD300AFC720 /* CustomFloatingTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9A142522391AD300AFC720 /* CustomFloatingTextFieldUITests.swift */,
+				CE9A142722391AD300AFC720 /* Info.plist */,
+			);
+			path = CustomFloatingTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		CE9A1433223926F400AFC720 /* FloatingTextField */ = {
+			isa = PBXGroup;
+			children = (
+				CE9A143622394E4F00AFC720 /* FloatingTextField.swift */,
+			);
+			path = FloatingTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE9A140122391AD100AFC720 /* CustomFloatingTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9A142A22391AD300AFC720 /* Build configuration list for PBXNativeTarget "CustomFloatingTextField" */;
+			buildPhases = (
+				CE9A13FE22391AD100AFC720 /* Sources */,
+				CE9A13FF22391AD100AFC720 /* Frameworks */,
+				CE9A140022391AD100AFC720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomFloatingTextField;
+			productName = MVVM;
+			productReference = CE9A140222391AD100AFC720 /* CustomFloatingTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE9A141522391AD300AFC720 /* CustomFloatingTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9A142D22391AD300AFC720 /* Build configuration list for PBXNativeTarget "CustomFloatingTextFieldTests" */;
+			buildPhases = (
+				CE9A141222391AD300AFC720 /* Sources */,
+				CE9A141322391AD300AFC720 /* Frameworks */,
+				CE9A141422391AD300AFC720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9A141822391AD300AFC720 /* PBXTargetDependency */,
+			);
+			name = CustomFloatingTextFieldTests;
+			productName = MVVMTests;
+			productReference = CE9A141622391AD300AFC720 /* CustomFloatingTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE9A142022391AD300AFC720 /* CustomFloatingTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9A143022391AD300AFC720 /* Build configuration list for PBXNativeTarget "CustomFloatingTextFieldUITests" */;
+			buildPhases = (
+				CE9A141D22391AD300AFC720 /* Sources */,
+				CE9A141E22391AD300AFC720 /* Frameworks */,
+				CE9A141F22391AD300AFC720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9A142322391AD300AFC720 /* PBXTargetDependency */,
+			);
+			name = CustomFloatingTextFieldUITests;
+			productName = MVVMUITests;
+			productReference = CE9A142122391AD300AFC720 /* CustomFloatingTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE9A13FA22391AD100AFC720 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = User;
+				TargetAttributes = {
+					CE9A140122391AD100AFC720 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CE9A141522391AD300AFC720 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CE9A140122391AD100AFC720;
+					};
+					CE9A142022391AD300AFC720 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CE9A140122391AD100AFC720;
+					};
+				};
+			};
+			buildConfigurationList = CE9A13FD22391AD100AFC720 /* Build configuration list for PBXProject "CustomFloatingTextField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE9A13F922391AD100AFC720;
+			productRefGroup = CE9A140322391AD100AFC720 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE9A140122391AD100AFC720 /* CustomFloatingTextField */,
+				CE9A141522391AD300AFC720 /* CustomFloatingTextFieldTests */,
+				CE9A142022391AD300AFC720 /* CustomFloatingTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE9A140022391AD100AFC720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9A141022391AD300AFC720 /* LaunchScreen.storyboard in Resources */,
+				CE9A140D22391AD300AFC720 /* Assets.xcassets in Resources */,
+				CE9A140B22391AD100AFC720 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9A141422391AD300AFC720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9A141F22391AD300AFC720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE9A13FE22391AD100AFC720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9A140822391AD100AFC720 /* ViewController.swift in Sources */,
+				CE9A140622391AD100AFC720 /* AppDelegate.swift in Sources */,
+				CE9A143722394E4F00AFC720 /* FloatingTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9A141222391AD300AFC720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9A141B22391AD300AFC720 /* CustomFloatingTextFieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9A141D22391AD300AFC720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9A142622391AD300AFC720 /* CustomFloatingTextFieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE9A141822391AD300AFC720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9A140122391AD100AFC720 /* CustomFloatingTextField */;
+			targetProxy = CE9A141722391AD300AFC720 /* PBXContainerItemProxy */;
+		};
+		CE9A142322391AD300AFC720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9A140122391AD100AFC720 /* CustomFloatingTextField */;
+			targetProxy = CE9A142222391AD300AFC720 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE9A140922391AD100AFC720 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9A140A22391AD100AFC720 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE9A140E22391AD300AFC720 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9A140F22391AD300AFC720 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE9A142822391AD300AFC720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE9A142922391AD300AFC720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE9A142B22391AD300AFC720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8QN65F859E;
+				INFOPLIST_FILE = CustomFloatingTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.damcogroup.CustomFloatingTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE9A142C22391AD300AFC720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8QN65F859E;
+				INFOPLIST_FILE = CustomFloatingTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.damcogroup.CustomFloatingTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE9A142E22391AD300AFC720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MVVMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.damcogroup.MVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomFloatingTextField.app/CustomFloatingTextField";
+			};
+			name = Debug;
+		};
+		CE9A142F22391AD300AFC720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MVVMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.damcogroup.MVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomFloatingTextField.app/CustomFloatingTextField";
+			};
+			name = Release;
+		};
+		CE9A143122391AD300AFC720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.damcogroup.MVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MVVM;
+			};
+			name = Debug;
+		};
+		CE9A143222391AD300AFC720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.damcogroup.MVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MVVM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE9A13FD22391AD100AFC720 /* Build configuration list for PBXProject "CustomFloatingTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9A142822391AD300AFC720 /* Debug */,
+				CE9A142922391AD300AFC720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9A142A22391AD300AFC720 /* Build configuration list for PBXNativeTarget "CustomFloatingTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9A142B22391AD300AFC720 /* Debug */,
+				CE9A142C22391AD300AFC720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9A142D22391AD300AFC720 /* Build configuration list for PBXNativeTarget "CustomFloatingTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9A142E22391AD300AFC720 /* Debug */,
+				CE9A142F22391AD300AFC720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9A143022391AD300AFC720 /* Build configuration list for PBXNativeTarget "CustomFloatingTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9A143122391AD300AFC720 /* Debug */,
+				CE9A143222391AD300AFC720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE9A13FA22391AD100AFC720 /* Project object */;
+}
