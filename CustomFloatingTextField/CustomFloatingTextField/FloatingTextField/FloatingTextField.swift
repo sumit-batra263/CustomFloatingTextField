@@ -1,9 +1,9 @@
 //
 //  FloatingTextField.swift
-//  MVVM
+//  CustomFloatingTextField
 //
-//  Created by User on 13/03/19.
-//  Copyright © 2019 User. All rights reserved.
+//  Created by Sumit Batra on 13/03/19.
+//  Copyright © 2019 Sumit Batra. All rights reserved.
 //
 
 import Foundation
